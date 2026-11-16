@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter & checkpoints
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Machine learning checkpoints & run artifacts
+catboost_info/
+*.log
+runs/
+checkpoint-*/
+
+# Model adapters / weights (store on cloud / HF / Vast.ai, not git)
+artifacts/stage1_qwen3_8b/*/fold_*_best/
+*.bin
+*.pt
+*.safetensors
+
+# OS & environment files
+.DS_Store
+Thumbs.db
+.env
+.venv/
+env/
+venv/
